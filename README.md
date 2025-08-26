@@ -32,19 +32,19 @@ It provides precise details including **temperature, humidity, wind speed,** and
 
 ---
 
-🌍 Live Demo
+## 🌍 Live Demo
 
 🔗 Live Weather App (https://nanishat.github.io/weather-app/)
 
 ---
 
- 🤝 Contributing
+## 🤝 Contributing
 
 Contributions are welcome!
 Feel free to fork this repo, open an issue, or submit a pull request.
 
 ---
 
- 📜 License
+## 📜 License
 
 This project is licensed under the MIT License – free to use, modify, and share.
