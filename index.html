@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,41 +11,20 @@
 <body>
     <div class="card">
         <div class="search">
-            <input type="text" placeholder="Enter City Name" spellcheck="false">
-            <button><img src="Image/search.png"></button>
-            
+            <input type="text" placeholder="Enter City Name" spellcheck="false" class="js-search">
+            <button><img src="Image/search.png" class="js-searchBtn"></button>
+
         </div>
 
         <div class="error">
             <p>Invalid city name!</p>
         </div>
 
-        <div class="weather">
-            <img src="Image/drizzle.png" class="weather-icon">
-            <p>Haze</p>
-            <h1 class="temp">25°C</h1>
-            <h2 class="city">New York</h2>
-            <div class="details">
-                <div class="col">
-                    <img src="Image/humidity.png">
-                    <div>
-                        <p class="humidity">50%</p>
-                        <p>Humidity</p>
-                    </div>
-                </div>
-
-                <div class="col">
-                    <img src="Image/wind.png">
-                    <div>
-                        <p class="wind">15 km/h</p>
-                        <p>Wind Speed</p>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <div class="weather js-weather"></div>
     </div>
 
-    <script src="scripts.js"></script>
+    <script type="module" src="render-weather-data.js"></script>
 
 </body>
+
 </html>
